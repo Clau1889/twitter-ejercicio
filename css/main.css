@@ -1,0 +1,80 @@
+body{
+    background-image: url(../assets/images/vintage-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: rgba(75, 11, 75, 0.9);
+    height: 1.5cm;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+header nav{
+    color: #ffffff;
+    height: auto;
+    margin: 2mm 1.3cm;
+    text-align: center;
+    width: 90%;
+}
+
+#name-page{
+    font-family: 'Courgette', cursive;
+    font-size: 120%;
+    padding:2mm;
+}
+
+header i{
+    font-size: 120%;
+    padding:2mm;
+}
+
+#parent-form{
+    background-color: rgba(143, 139, 139, 0.836);
+    border-radius: 5%;
+    height: auto;
+    margin: 3cm 1.5cm;
+    position: absolute;
+    width: 40%;
+}
+
+div #cont-form{
+    background-color: rgba(143, 139, 139, 0.1);
+    border-radius: 5%;
+    display: block;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+#cont-text{
+    align-content: center;
+    background-color: rgba(223, 206, 223, 0.938);
+    border-radius: 5%;
+    display: block;
+    margin: 2mm;
+    height: 3cm;
+    width: 95%;
+    word-wrap: break-word;
+}
+
+#tweet-button{
+    background-color: rgb(107, 39, 107);
+    border:none;
+    border-radius: 5%;
+    color: #ffffff;
+    font-family: 'Courgette', cursive;
+    font-size: 120%;
+    margin-left: 40%;
+    margin-bottom: 0.5cm;
+    margin-top: 0.3cm;
+    text-align: center;
+    padding: 3mm;
+    width: 2cm;
+}
+
+
