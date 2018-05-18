@@ -12,6 +12,7 @@ body{
     position: fixed;
     top: 0;
     width:100%;
+    z-index: 1;
 }
 
 header nav{
@@ -37,8 +38,9 @@ header i{
     background-color: rgba(143, 139, 139, 0.836);
     border-radius: 5%;
     height: auto;
-    margin: 3cm 1.5cm;
-    position: absolute;
+    margin: 2.5cm 1.5cm;
+    padding: 2mm;
+    position: relative;
     width: 40%;
 }
 
@@ -76,5 +78,25 @@ div #cont-form{
     padding: 3mm;
     width: 2cm;
 }
+
+#parent-text{
+    background-color: rgba(143, 139, 139, 0.836);
+    border-radius: 5%;
+    height: auto;
+    margin: 0.1cm 1.5cm;
+    padding: 0.5mm;
+    position: relative;
+    width: 50%;
+}
+
+#paragraph{
+    background-color: rgba(223, 206, 223, 0.938);
+    height: auto;
+    margin: 2mm;
+    padding: 3mm;
+    width: 92%;
+    word-wrap: break-word;
+}
+
 
 
